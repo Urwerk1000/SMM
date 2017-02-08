@@ -1,4 +1,5 @@
 <img src="./Resources/LogoSMM.png" width="400">
+
 # Swiss Music Map Project
 > Project for the course Applied Data Analysis, taught by Michele Catasta
 EPFL, November 2016
@@ -17,13 +18,13 @@ Simon Narduzzi (@Narduzzi), IN
 ##Final Deliverable
 ###Pipeline
 <img src="./Resources/pipeline.png" width="400">
-####Scrapping
-First we scrap data from three different websites : <a href="http://events.ch">events.ch</a>, <a href="http://residentadvisor.net">residentadvisor.net</a> and <a href="http://routesdesfestivals.com">routedesfestivals.com</a>.
-We gather like this over 40k musical events in Switzerland. The format of each website is different so we have to do specific scrapping scripts for each of these websites. They also have different way of representing information, and no consistency. This have created some problems we had to resolve before the merge, for instance the format of the date, we agree to use the YYYY-MM-DD format (with dashes and not spaces or colons). Some also have more information than others, events.ch sometimes contains the genre of the event, and resident advisor displays club names.
+####Scraping
+First we scraped the data from three different websites : <a href="http://events.ch">events.ch</a>, <a href="http://residentadvisor.net">residentadvisor.net</a> and <a href="http://routesdesfestivals.com">routedesfestivals.com</a>.
+We gathered like this over 40'000 musical events in Switzerland. The format of each website was different so we had to do specific scraping scripts for each of these websites. They also had different way of representing information, and no consistency. Which has created some problems we had to resolve before the merge, for instance the format of the date, we agreed to use the YYYY-MM-DD format (with dashes and not spaces or colons). Some data sources also had more information than others, events.ch sometimes contains the genre of the event, and resident advisor displays club names.
 
 Then we merge this three dataframes into one big datagrame, making sure they all have the right columns and columns names.
 
-Then we extracted the geolocalisation information, the (latitude, longitude) tuple to be able to plot it on the map. For events.ch and routesdesfestivals.com we only had the city name (location), for resident advisor we had the address of the event, more or less complete and well written.
+Then we extracted the geolocation information, the (latitude, longitude) tuple to be able to plot it on the map. For events.ch and routesdesfestivals.com we only had the city name (location), for resident advisor we had the address of the event, more or less complete and well written.
 
 After this, we want to get the musical genre of the events. For this purpose, we made use of Spotify and Wikipedia, but we needed the correct name of the artists. For that, we clean the artists column to make sure nothing phony is in it (some data from RA had the hours and other special characters in it). Then we can finally extract the genre per artists, then we compute the main genre per events.
 
@@ -39,15 +40,16 @@ We first wrote a app using matplotlib, it was ugly and a lot of code but worked 
 The Tableau projet files are in the `Visualization` folder.
 
 <img src="./Visualization/Screenshots/1.png" width="400">
+<img src="./Visualization/Screenshots/3.png" width="400">
 
-The public Tableau is accessible on this link : https://public.tableau.com/profile/publish/ADA_Project/Histoire1
+The public Tableau is accessible on <a href="https://public.tableau.com/profile/publish/ADA_Project/Histoire1">this link</a> !
 
 ___
 Below is the old description/README we made before starting the project : <br>
 (to see what were our expectations)
 ___
 
-<img src="./LogoADA.png" width="300">
+<img src="./Resources/LogoADA.png" width="300">
 
 
 ##Abstract
