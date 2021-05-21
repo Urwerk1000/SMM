@@ -18,7 +18,9 @@ Simon Narduzzi (@Narduzzi), IN
 ## Final Deliverable
 ### Pipeline
 <img src="./Resources/pipeline.png" width="400">
+
 #### Scraping
+
 First we scraped the data from three different websites : <a href="http://events.ch">events.ch</a>, <a href="http://residentadvisor.net">residentadvisor.net</a> and <a href="http://routesdesfestivals.com">routedesfestivals.com</a>.
 We gathered like this over 40'000 musical events in Switzerland. The format of each website was different so we had to do specific scraping scripts for each of these websites. They also had different way of representing information, and no consistency. Which has created some problems we had to resolve before the merge, for instance the format of the date, we agreed to use the YYYY-MM-DD format (with dashes and not spaces or colons). Some data sources also had more information than others, events.ch sometimes contains the genre of the event, and resident advisor displays club names.
 
