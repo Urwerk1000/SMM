@@ -145,7 +145,7 @@ Please consider citing our work!
 
 ```
 @misc{smm2016,
-  author = {Virgile Neu, Alexandre Connat, Simon Narduzzi},
+  author = {Neu, Virgile and Connat, Alexandre and Narduzzi, Simon},
   title = {Swiss Music Map},
   year = {2016},
   publisher = {GitHub},
