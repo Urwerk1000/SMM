@@ -1,6 +1,6 @@
 <img src="./Resources/LogoSMM.png" width="400">
 
-# Swiss Music Map Project
+# Swiss Music Map
 > Project for the course Applied Data Analysis, taught by Michele Catasta
 EPFL, November 2016
 
@@ -137,3 +137,22 @@ This project is consequent and a planning is difficult to predict, as we are not
 - Week 9 (2.11.2016) : Vizualisation developpement  
 - Week 10 (9.11.2016) : Vizualisation developpement  
 - Week 10 (16.11.2016) : Vizualisation developpement  
+
+
+## Citing
+
+Please consider citing our work!
+
+```
+@misc{Charles2013,
+  author = {Virgile Neu, Alexandre Connat, Simon Narduzzi},
+  title = {Swiss Music Map},
+  year = {2016},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  doi = {10.5281/zenodo.5883484},
+  howpublished = {\url{https://github.com/Narduzzi/SMM}}
+}
+```
+
+<a href="https://zenodo.org/badge/latestdoi/72929549"><img src="https://zenodo.org/badge/72929549.svg" alt="DOI"></a>
