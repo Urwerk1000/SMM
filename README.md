@@ -144,7 +144,7 @@ This project is consequent and a planning is difficult to predict, as we are not
 Please consider citing our work!
 
 ```
-@misc{Charles2013,
+@misc{smm2016,
   author = {Virgile Neu, Alexandre Connat, Simon Narduzzi},
   title = {Swiss Music Map},
   year = {2016},
